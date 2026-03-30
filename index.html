@@ -6,7 +6,12 @@
 
   
   <header>
-      <h1>Paper Rater</h1>
+    <div id="headerleftcontainer">
+      <h1 id="classroomtitle">Paper Rater</h1>
+    </div>
+    <div id="headerrightcontainer">
+      
+    </div>
   </header>
 
   
@@ -44,9 +49,19 @@
       bottom: 0;
       right: 0;
       width: calc(100vw - 40px);
-      height: calc(100vh - 20px);
+      height: calc(100vh - 15px);
       visibility: visible;
       display: block;
+    }
+
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #classroomtitle {
+      
     }
   </style>
 </html>
